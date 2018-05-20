@@ -8,14 +8,13 @@ html {
 
 body {
     max-width: 1280px;
-    margin: 0 0 0 0;
-    background-color: darkgrey
+    background-color: #363535
 }
 
 /* Navigation */
 
 nav ul {
-    background-color: ghostwhite;
+
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -23,41 +22,51 @@ nav ul {
     margin: 0 0 0 0;
 }
 
+nav ul img {
+    width: 90px;
+    height: 90px;
+    padding-right: 1em;
+    padding-top: 1.5em
+
+}
+
 nav ul li {
-    background-color: ghostwhite;
+    /*background-color: #1f1f1f;*/
     position: relative;
+    padding-left: 2em;
     padding-right: 3em;
-    padding-top: 1em;
+    padding-top: 3.3em;
     padding-bottom: 0.5em;
 }
 
 a {
     text-decoration: none;
-    font-family: 'Gothic A1';
-    color: black;
+    font-family: sans-serif;
+    color: white;
+    padding: 0em;
 
 
 }
 
 li {
 
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 1em;
+    font-family: sans-serif;
+
 }
 
 .dropdown > ul {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #1f1f1f;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 1px 16px;
+    padding: 1px 1px;
     z-index: 1;
-    padding: 1em;
+
 }
 
 .dropdown > ul li {
     white-space: nowrap;
-    padding: 0.5 0.5em;
+
     font-size: 1em;
 }
 
@@ -71,30 +80,39 @@ li {
 h1 {
     font-family: 'Gothic A1', sans-serif;
     margin-left: 1.2em;
+    color: white;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 2em;
+    margin-left: 3.4em;
+    color: white;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 2em;
+    margin-left: 3.4em;
+    color: white;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 2em;
+    font-family: sans-serif;
+    margin-left: 3.4em;
+    color: white;
 }
 
 img {
     width: 40%;
-    margin-left: 2.4em;
+
 }
 
 iframe {
-    margin-left: 2.5em;
+    margin-left: 3.4em;
+}
+
+footer {
+    font-size: 0.8em;
+    margin: auto;
 }
