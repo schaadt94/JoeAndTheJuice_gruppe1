@@ -35,9 +35,9 @@ nav ul li {
     /*background-color: #1f1f1f;*/
     position: relative;
     padding-left: 2em;
-    padding-right: 3em;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    margin-top: 2em;
 }
 
 a {
@@ -115,5 +115,5 @@ iframe {
 
 footer {
     font-size: 0.8em;
-    margin: auto;
+
 }
