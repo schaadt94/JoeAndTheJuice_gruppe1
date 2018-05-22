@@ -49,7 +49,7 @@ a {
 
 }
 
-li {
+article li {
 
     font-family: sans-serif;
     color: white;
@@ -106,9 +106,9 @@ p {
     color: white;
 }
 
-img {
-    width: 40%;
-
+article img {
+    width: 50%;
+    margin-left: 3.3em
 }
 
 iframe {
