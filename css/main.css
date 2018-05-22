@@ -44,7 +44,14 @@ a {
     text-decoration: none;
     font-family: sans-serif;
     color: white;
-    padding: 0em;
+    font: 1em;
+}
+
+article a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #ffcfe7;
+    padding: 3.4em;
 
 
 }
@@ -117,5 +124,6 @@ iframe {
 
 footer {
     font-size: 0.8em;
+    margin-left: 0.7em;
 
 }
