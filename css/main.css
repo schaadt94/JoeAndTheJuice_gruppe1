@@ -52,6 +52,8 @@ a {
 li {
 
     font-family: sans-serif;
+    color: white;
+    margin-left: 3em;
 
 }
 
@@ -80,21 +82,21 @@ li {
 
 h1 {
     font-family: 'Gothic A1', sans-serif;
-    margin-left: 1.2em;
+    margin-left: 1.6em;
     color: white;
 }
 
 h2 {
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 3.4em;
+    margin-left: 2.2em;
     color: white;
 }
 
 h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 3.4em;
+    margin-left: 2.7em;
     color: white;
 }
 
